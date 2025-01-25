@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // function hello (name) {
+        //     console.log("Your Name"+name);
+
+        // }
+
+        // hello("golf")
+        // hello("ning")
+
+        // let up = function (x) {
+        //     return x * x
+
+        // }
+
+        // function  rang(min,max) {
+        //     return function (val) {
+        //        return val >= min && val <= max
+        //     }
+
+        // }
+
+        // let my = rang(12,21)
+
+        // console.log(my(88));
+
+
+        // let farm = {
+        //     name : "Farm Chakcoai",
+        //      cowCont : 0,
+        //       cowsLntoEnclosure() {
+        //           this.cowCont ++ ;
+        //           return "Mow Mow" ;
+        //      },
+
+        //      resetNumCows(){
+        //         this.cowCont = 0;
+        //         return "Go Go ";
+        //      }
+
+        // }
+
+        // let  square  = {
+        //     area (x) {
+        //     return x*x },
+
+        //     perimeter(x){
+        //     return  x*4
+        // }
+
+        // }
+        // const nums =[2,34,5,6,79]
+
+        // for (const K of nums){
+        //     console.log(K)
+        // }
+
+        // nums.forEach(function (n) {
+        //     console.log(n+10);
+
+        // const fullNames = [
+        //     { first: 'Albus', last: 'Dumbledore' },
+        // { first: 'Harry', last: 'Potter' }, {
+        //     first: 'Hermione',
+        //     last: 'Granger'
+        // }, { first: 'Ron', last: 'Weasley' },
+        // { first: 'Rubeus', last: 'Hagrid' }, {
+        //     first: 'Minerva',
+        //     last: 'McGonagall'
+        // }, { first: 'Severus', last: 'Snape' }];
+
+        // // })
+
+        // const greet = (x) => {
+        //     return   "hey" + " " +  x;
+        // }
+
+        //             console.log("Start");
+
+        //     setTimeout(() => {
+        //   console.log("This runs after 2 seconds");
+        // }, );
+
+        // console.log("End");
+
+        // setTimeout(() => {
+        //     console.log("First step done");
+        //     setTimeout(() => {
+        //         console.log("Second step done");
+        //         setTimeout(() => {
+        //             console.log("Third step done");
+        //         }, 1000);
+        //     }, 1000);
+        // }, 1000);
+
+        //     let num = [1,23,5,6,78,90,]
+
+        //    let numModeZero = num.filter((s)=> s % 2 == 0)  .map((e)=> num = 40)
+
+
+        //    console.log(numModeZero);
+   
+
+
+        //  validUserNames = ((usernames)=>usernames.filter(usernames => usernames.length < 10)) 
+
+            
+
+        
+        
+        // let   usernames = ['mark', 'staceysmom1978', 
+        // 'q29832128238983', 'carrie98', 'MoanaFan'];
+
+        // let shotUserName = validUserNames(usernames); 
+        // console.log(shotUserName);
+        
+
+    
+
+    //  validUserNames = ((usernames)=>usernames.filter(usernames => usernames % 2 ==0)) 
+        
+    
+    // const usernames = ["JohnDoe", "Alexander", "Amy", "ChrisEvans", "Max", "SuperLongUsername"];
+
+    // const modeUserName = validUserNames(usernames) 
+
+    // console.log(modeUserName);
+
+
+// let num = ([2,4,6,8,2]);
+
+// let everNum = num.every((num)=>(num % 2 == 0))
+
+// console.log(everNum);
+
+//     function plus (x,y = 1+2) {
+//         return x + y
+        
+//     }        
+// console.log(plus("name ","aomsin"));
+
+// function greet(name = "guest") {
+//  return `Hello, ${name}!`;
+// }
+
+// function multiply(a, b = 5) {
+//  return a * b;
+// }
+
+// function createPerson(name,age = 18) {
+//  return { name, age };
+// }
+
+// const students = [
+//   { name: "Alice", score: 85 },
+//   { name: "Bob", score: 92 },
+//   { name: "Charlie", score: 78 },
+// ];
+
+// students.forEach(student => {
+//   console.log ( Math.max(student.score));
+// });
+
+// const numbers = [3, 7, 2, 8, 6];
+// const maxNumber = Math.max(...numbers)
+
+// function combineArrays(array1, array2) {
+//   return {...array1, ...array2};
+// }
+
+// const arr1 = [1, 2, 3];
+// const arr2 = [4, 5, 6];
+
+// const combined = combineArrays(arr1, arr2);
+// console.log(combined); 
+
+
+// const word = "hello";
+// console.log(...word);
+
+//const chars = 
+
+// const arr1 = [1, 2, 3];
+// const arr2 = [4, 5, 6];
+//const merged = 
+
+// const obj1 = { a: 1, b: 2 };
+// const obj2 = { c: 3, d: 4 };
+
+// const mergedObj = combineArrays(obj1,obj2)
+
+
+// const obj = { x: 10, y: 20 };
+// const newObj = {...obj, y : "newscore" }
+// console.log(newObj);
+
+// const obj1 = { a: 1, b: 2, c: 3, e : 2 ,f:10}
+// const obj2 = { c: 4, d: 5 ,};
+// const mergedObj = {...obj1 ,...obj2, d:1}
+
+// console.log(mergedObj);
+// function getFirstAndLast(...args) {
+//   return [args[0] + args[args.length-1]]; // คืนค่าตัวแรกและตัวสุดท้าย
+// }
+
+// // ตัวอย่างการใช้งาน
+// console.log(getFirstAndLast(1, 2, 3, 4,5,6,60));       // Output: [1, 4]
+// console.log(getFirstAndLast("A", "B", "C"));    // Output: ["A", "C"]
+// console.log(getFirstAndLast(100));              // Output: [100, 100]
+// console.log(getFirstAndLast());                 // Output: []
+
+    </script>
+</head>
+
+<body>
+
+่
+
+
+</body>
+
+</html>
